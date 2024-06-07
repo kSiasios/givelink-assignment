@@ -27,8 +27,8 @@ export const Product = ({ imageURL, name, price }: ProductData) => {
         <figure className="rounded-lg aspect-square flex justify-center items-center w-full">
           <Image
             src={`https://be2.givelink.app/images/products/${imageURL}`}
-            width={100}
-            height={100}
+            width={500}
+            height={500}
             alt={`Cover image for product: ${name}`}
             className="w-full h-full object-cover rounded-lg"
           />
